@@ -1,0 +1,24 @@
+{
+  "bcftools": "/mnt/isilon/helbig_lab/software/Fastqc/FastQC/fastqc",
+  "gatk": "/mnt/isilon/helbig_lab/software/gatk-4.0.0.0/gatk-package-4.0.0.0-local.jar",
+  "input_vcf1": {
+    "class": "File",
+    "location": "proband.vcf"
+  },
+  "input_vcf4": {
+    "class": "File",
+    "location": "mom.vcf"
+  },
+  "input_vcf3": {
+    "class": "File",
+    "location": "dad.vcf"
+    },
+  "java": "/mnt/isilon/helbig_lab/software/jre1.8.0_71/bin/java",
+  "path_to_annovar": "/mnt/isilon/cbmi/variome/helbigi/annovar"
+  "picard": "/mnt/isilon/helbig_lab/software/picard-tools-2.0.1/picard.jar",
+  "reference": {
+    "class": "File",
+    "location": "/mnt/isilon/helbig_lab/ref_files/GrCh37/hs37d5.fa"
+  },
+  "sample_name": "EG0737"
+}
